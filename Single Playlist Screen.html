@@ -1,0 +1,1038 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Playlist</title>
+    <!-- it is connected to two stylesheets -->
+    <link rel="stylesheet" type="text/css" href="Single Playlist Screen Styles.css"><!-- this is the main stylesheet -->
+    <!-- desktop first approach is used for the same. -->
+    <link rel="stylesheet" type="text/css" href="Secondary page responsive.css">
+    <!-- this is the style sheet with all the media queries -->
+    <!-- this script is just for font awesome fonts -->
+    <script src="https://kit.fontawesome.com/2d9b67a497.js" crossorigin="anonymous"></script>
+</head>
+<!-- body -->
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navigation-bar">
+        <!-- this div contains the logo and title of the page -->
+        <div class="title-combo">
+            <div class="website-logo">
+                <img src="https://www.freepnglogos.com/uploads/spotify-logo-png/spotify-logo-vector-download-11.png">
+            </div>
+            <div class="website-name">
+                <h2>
+                    <a href="index.html">
+                      Lubna's
+                    </a>
+                </h2>
+                <h6 style="color: magenta;">
+                    <a href="index.html">Spotify</a>
+                </h6>
+            </div>
+        </div>
+        <!-- this is the animated favourites text -->
+        <div class="favs">
+            <h4>
+               <i class="far fa-heart"></i> FAVORITES
+            </h4>
+        </div>
+        <div class="search-bar">
+            <div>
+                <!-- magnifying glass- search icon -->
+                <i class="fas fa-search search-ico"></i>
+            </div>
+            <input type="text" name="search" placeholder="Search for your favorite song">
+            <div>
+                <!-- mic icon -->
+                <i class="fas fa-microphone mic-ico"></i>
+            </div>
+        </div>
+        <!-- this is for notification bell -->
+        <div class="notification-bell">
+            <i class="fas fa-bell"></i> Notifications
+
+        </div>
+        <!-- this is for profile picture -->
+        <div class="profile-picture">
+            <img src="https://i1.wp.com/nofiredrills.com/wp-content/uploads/2016/10/myavatar.png?resize=400%2C400&ssl=1">
+        </div>
+    </nav>
+    <!-- this is the main center part of the page and it is divided into two sections, namely section 1 and section 2-->
+    <!-- I have separated these sections using the aside tag for each section -->
+    <main>
+        <!-- aside section 1 -->
+        <aside class="aside section-1">
+            <!-- this is for the jumbotron -->
+            <div class="jumbotron">
+                <div class=jumbotron-image>
+                    <!-- there is nothing in this div because all the images and all are added by css -->
+                </div>
+                <!-- jumbotron details -->
+                <div class="jumbotron-detail">
+                    <!-- descriptive part of the jumbotron this will contain name , number of followers and all -->
+                    <div class="descriptive-part">
+                        <div class="song-name-main">
+                            <h1>SherShah Songs</h1>
+                        </div>
+                        <div class="ratings">
+                           8.9 IMDB
+                        </div>
+                        <p class="author">DIRECTED BY VISHNU VARDHAN</p>
+                        <!-- short description of the current author -->
+                        <p class="desc">
+                            This is a story of a PVC awardee brave Indian soldier - Capt. Vikram Batra, who shot to fame and became a household name during the Kargil War in 1999. His indomitable spirit and his unflinching courage in chasing the Pakistani soldiers out of Indian territory contributed immensely in India finally winning the Kargil War in 1999.
+                           </p>
+                    </div>
+                    <!-- action part -->
+                    <br/>
+                    <div class="action-part">
+                        <!-- action buttons -->
+                        <div class="btns">
+                            <button>Make your own playlist</button>
+                            
+                        </div><br/>
+                        <p>
+                           5 Songs
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- now the playlist part begins -->
+            <div class="playlist-items">
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            01
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/-7u1S-_va4o/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Treat You Better
+                            </h5>
+                            <p>
+                               Shawn Mendes
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                        3:07
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            02
+                        </div>
+                        <div>
+                            <img src="http://images4.fanpop.com/image/photos/19300000/Baby-justin-bieber-songs-19327380-1024-768.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Baby
+                            </h5>
+                            <p>
+                               Justin Bieber
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                        3:34
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            03
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/k13bQoZ3mjE/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                               Love Story
+                            </h5>
+                            <p>
+                              Taylor Swift
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Country</div>
+                    <div class="center">
+                        3:56
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            04
+                        </div>
+                        <div>
+                            <img src="https://www.quirkybyte.com/wp-content/uploads/2019/07/Senorita-English-Song-Download-Shawn-Mendes.png">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                               Senorita
+                            </h5>
+                            <p>
+                               Shawn Mendes <br/>
+                               Camila Cabello
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                        3:11
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            05
+                        </div>
+                        <div>
+                            <img src="http://reallifestl.com/wp-content/uploads/2017/12/Perfect-Ed-Sheeran-Beyonce-Duet.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Perfect
+                            </h5>
+                            <p>
+                               Ed Sheeran
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                       4:23
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            06
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/4E_499ipe5Y/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                              Faded
+                            </h5>
+                            <p>
+                             Alan Walker
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                       3:32
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            07
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/LS2ifrLAadU/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                               Stay
+                            </h5>
+                            <p>
+                               Zedd <br/> Alessia Cara
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                        3:30
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            08
+                        </div>
+                        <div>
+                            <img src="https://www.digi-news.net/wp-content/uploads/2021/06/BTS-Hitting-It-Big-With-The-Newly-Released-Butter-min-1-1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Butter
+                            </h5>
+                            <p>
+                                BTS Army
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Disco Pop</div>
+                    <div class="center">
+                        2:44
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            09
+                        </div>
+                        <div>
+                            <img src="https://lab.fm/wp-content/uploads/2021/07/camila-cabello-1392x1044.jpeg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Don't Go Yet
+                            </h5>
+                            <p>
+                                Camila Cabello
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Latin Pop <br/>Tropical</div>
+                    <div class="center">
+                        2:45
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            10
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/FyjqAOg-O1U/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Who Says
+                            </h5>
+                            <p>
+                               Selena Gomez
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Pop</div>
+                    <div class="center">
+                       3:16
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            11
+                        </div>
+                        <div>
+                            <img src="https://1.bp.blogspot.com/-xHwfKKeCXkg/X55b8PKvi9I/AAAAAAAABUA/ra4KhUSaiyoHb69jxCYeIBsJljNfB9TPwCLcBGAsYHQ/w1200-h630-p-k-no-nu/IMG_20201101_122447.webp">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                                Fever
+                            </h5>
+                            <p>
+                               Dua Lipa
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Dance-Pop</div>
+                    <div class="center">
+                        2:36
+                    </div>
+                    <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                    <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- playlist item -->
+                <div class="playlist-item">
+                    <div class="left">
+                        <div>
+                            12
+                        </div>
+                        <div>
+                            <img src="https://i.ytimg.com/vi/2laI8tNgosM/maxresdefault.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div>
+                            <h5>
+                               Graveyard
+                            </h5>
+                            <p>
+                               Halsey
+                            </p>
+                        </div>
+                    </div>
+                    <div class="left">Electro</div>
+                    <div class="center">
+                        3:01
+                    </div>
+                   
+                        <div class="mid"><i class="fas fa-arrow-down"></i></div>
+                        <div class="right">
+                        <div>
+                            <i class="far fa-thumbs-up"></i>
+                        </div>
+                        <div>
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!-- one aside section is complete -->
+        <!-- now the second aside section will start from here -->
+        <!-- the page is responsive. please try reducing the width of the page -->
+        <!-- the aside section will collapse and a "more button will be shown to you." -->
+        <!-- clicking on this more button, you will be shown the aside section 2  -->
+        <!-- its position will be absolute at lower resolutions -->
+        <!-- this is the label for that more button -->
+        <label for="more"><i class="fas fa-angle-double-left"></i>More</label>
+        <!-- this is that more button -->
+        <!-- and this is the check box. this will always be hidden -->
+        <!-- check the stylesheet_main.css when the label is clicked, this checkbox will be checked -->
+        <!-- which will invoke the aside section 2 on lower resolutions -->
+        <input type="checkbox" id="more">
+        <!-- </div> -->
+        <aside class="aside section-2">
+            <!-- similar class will be applicable to both similar artists and recently played -->
+            <div class="similar">
+                <!-- section heading, which also contains the view all button -->
+                <div class="section-heading">
+                    <h1>Similar Artists</h1>
+                    <div class="view-all-button">
+                        View All
+                    </div>
+                </div>
+                <!-- list is the container for the contents of similar artists -->
+                <div class="list">
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="https://4.bp.blogspot.com/-vDTfxKfbN0U/WhGkOlkrS8I/AAAAAAAAAfA/DkfYe_MozKcKaw-AkvEhe3OtQeszgybAwCLcBGAs/s1600/dsfs.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                               Faded
+                            </h5>
+                            <p class="author-name">
+                               Alan Walker
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                              3:32
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="https://storybehindthescene.files.wordpress.com/2011/03/count-on-me-reff.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                              Count On Me
+                            </h5>
+                            <p class="author-name">
+                                Bruno Mars
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                               3:28
+                            </p>
+                        </div>
+                    </div>
+                    <!-- item -->
+                    <div class="list-item">
+                        <div>
+                            <img src="https://lyricsraag.com/wp-content/uploads/2021/07/Raataan-Lambiyan-Shershaah-Lyrics-1.jpg">
+                            <div class="play-btn">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                        <div style="position: absolute; left:120px;">
+                            <h5>
+                             Raatan Lambiyaan
+                            </h5>
+                            <p class="author-name">
+                               Tanishk Bagchi and Asees Kaur
+                            </p>
+                        </div>
+                        <div class="extra">
+                            <div>
+                                <i class="fas fa-ellipsis-h"></i>
+                            </div>
+                            <p class="author-name">
+                              3:12
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- recently played section -->
+                <div class="similar">
+                    <!-- section headings, which also contains the view all button -->
+                    <div class="section-heading">
+                        <h1>Recently Played</h1>
+                        <div class="view-all-button">
+                            View All
+                        </div>
+                    </div>
+                    <!-- again list is a container for all the contents of recently played section -->
+                    <div class="list">
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    01
+                                </div>
+                                <div>
+                                    <img src="https://i.ytimg.com/vi/l_R8ztFTIKE/maxresdefault.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                       Saibo
+                                    </h5>
+                                    <p>
+                                       Sachin Jigar
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    02
+                                </div>
+                                <div>
+                                    <img src="http://images4.fanpop.com/image/photos/19300000/Baby-justin-bieber-songs-19327380-1024-768.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                     Baby
+                                    </h5>
+                                    <p>
+                                       Justin Bieber 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    03
+                                </div>
+                                <div>
+                                    <img src="https://houseofhorrors.b-cdn.net/wp-content/uploads/2019/05/bekhayali-lyrics-shahid.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                       Bekhayali
+                                    </h5>
+                                    <p>
+                                      Sachet Tandon
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    04
+                                </div>
+                                <div>
+                                    <img src="https://seetageeta.s3.ap-south-1.amazonaws.com/ranjha-480x354.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                         Ranjha
+                                    </h5>
+                                    <p>
+                                       Jasleen Royal
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    05
+                                </div>
+                                <div>
+                                    <img src="https://wallpapercave.com/wp/wp3276931.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                       Darkside
+                                    </h5>
+                                    <p>
+                                       Alan Walker
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    06
+                                </div>
+                                <div>
+                                    <img src="https://www.happymaza.com/wp-content/uploads/2017/03/Akhar-Lyrics-Lahoriye-Amrinder-Gill-2017.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                       Lahoriye
+                                    </h5>
+                                    <p>
+                                       Amrinder Gill
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    07
+                                </div>
+                                <div>
+                                    <img src="https://c-sf.smule.com/rs-s82/arr/5d/a1/6dcb297a-fe3e-49dc-8152-3f491967cfe0_1024.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Baarish
+                                    </h5>
+                                    <p>
+                                       Ash King
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    08
+                                </div>
+                                <div>
+                                    <img src="https://images-na.ssl-images-amazon.com/images/I/71E7pDcZoYL._AC_SL1200_.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Perfect
+                                    </h5>
+                                    <p>
+                                        Ed Sheeran
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- item -->
+                        <div class="playlist-item">
+                            <div class="left">
+                                <div>
+                                    09
+                                </div>
+                                <div>
+                                    <img src="https://www.quirkybyte.com/wp-content/uploads/2019/01/Qismat-Song-Download-2018-Mp3.jpg">
+                                    <div class="play-btn">
+                                        <i class="fas fa-play"></i>
+                                    </div>
+                                </div>
+                                <div>
+                                    <h5>
+                                        Qismat
+                                    </h5>
+                                    <p>
+                                        Ammy Virk
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="right">
+                                <div>
+                                    <i class="far fa-heart"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- main part of the page is over. -->
+    <!-- this is the footer part. -->
+    <!-- its position will be fixed to the screen bottom. -->
+    <footer>
+        <div class="active-song-description">
+            <!-- song image -->
+            <div id="song-image">
+                <img src="https://wallpapercave.com/wp/wp3276931.jpg">
+            </div>
+            <!-- song name and author -->
+            <div class="song-desc">
+                <div>
+                 Summer of Love
+                </div>
+                <div>
+                  Shawn Mendes and Tainy
+                </div>
+            </div>
+                <!-- heart icon and ban icon -->
+            <div class="heart-and-ban-icon">
+                <span>
+                    <i class="far fa-heart"></i>
+                </span>
+                <span>
+                    <i class="fas fa-ban"></i>
+                </span>
+            </div>
+        </div>
+        <!-- these are the main player controls -->
+        <div class="player">
+            <div class="controls">
+                <div><i class="fas fa-random"></i></div>
+                <div><i class="fas fa-step-backward"></i></div>
+                <div><i class="fas fa-pause-circle"></i></div>
+                <div><i class="fas fa-step-forward"></i></div>
+                <div><i class="fas fa-redo"></i></div>
+            </div>
+            <!-- this is the slider -->
+            <div id="slider">
+                <!-- current time -->
+                <div class="time">
+                   0:00
+                </div>
+                <div class="slidecontainer">
+                    <input type="range" min="0" max="100" value="0" class="slider" id="myRange">
+                </div>
+                <!-- total time -->
+                <div class="time">
+                  3:01
+                </div>
+            </div>
+        </div>
+        <!-- other icons including the volume slider and all -->
+        <div class="extras">
+            <div>
+                <i class="fas fa-list-ul"></i>
+            </div>
+            <div>
+                <i class="fas fa-laptop"></i>
+            </div>
+            <div>
+                <i class="fas fa-volume-up"></i>
+            </div>
+            <div class="slidecontainer" style="width:30%;">
+                <input type="range" min="0" max="100" value="0" class="slider" id="myRange" style="margin-top:0px;">
+            </div>
+            <div>
+                <i class="fas fa-expand-alt"></i>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
